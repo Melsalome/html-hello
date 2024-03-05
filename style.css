@@ -1,0 +1,114 @@
+/*Font estilo IG para aplicar al p*/
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+body{
+    background-color: black;
+    margin: 0;
+}
+
+/*Propiedades asignadas a la imagen principal central*/
+img{
+    height: 530px;
+    width: 530px;
+}
+
+.imagenppal{
+   background-color: white;
+    
+}
+
+/*Aquí comienza la parte del headline*/
+img.iconohtml {
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+}
+
+/*icono ellipsis*/
+.ellipsis{
+    transform: rotate(90deg);
+    margin-right: 15px;
+}
+
+
+h1,h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    margin: 0;
+    margin-left: 5px;
+    background-color: white;
+    width: 25px;
+}
+
+div.contenedor {
+    width: 530px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    
+}
+
+div.headline{
+display: flex;
+background-color: white;
+padding-top: 10px;
+padding-left: 10px;
+padding-bottom: 10px;
+}
+
+div.headlinetitles{
+    width: 100%;
+    margin:0;
+    background-color: white;
+    
+}
+
+/*Aquí comienza la parte del footpage*/
+div.footpage{
+   padding: 15px;
+   background-color: white;
+  
+}
+
+.iconos {
+    background-color: white;
+    margin: 0;
+    display: flex;
+    width:25%;
+    justify-content: space-around; 
+}
+
+.iconoDiv{
+    display: flex;
+    justify-content: space-between;
+    }
+i{
+    font-size: 30px;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+   margin-top: 15px;
+   padding-bottom: 5px;
+}
+
+.bookmark1{
+    margin-right: 10px;
+}
+
+.parrafo2 {
+    text-align: justify;
+    margin-right: 10px;
+}
